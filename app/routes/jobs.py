@@ -87,9 +87,17 @@ async def apply_to_job(
         "extracted_data": ai_data
     }
 
-def score_resume(skills: list[str], job_description: str) -> float:
-    job_keywords = set(word.lower() for word in job_description.split())
-    matched_skills = [skill for skill in skills if skill.lower() in job_keywords]
+import re
 
-    match_score = len(matched_skills) / len(skills) if skills else 0
-    return round(match_score * 100, 2) 
+def score_resume(skills: list[str], job_description: str) -> float:
+    # Clean and tokenize job description into words (ignore commas, punctuation)
+    job_words = re.findall(r"\b[\w+\-().']+\b", job_description.lower())
+    job_keywords = set(word.strip().lower() for word in job_words)
+
+    matched = [skill for skill in skills if skill.lower().strip() in job_keywords]
+    
+    if not skills:
+        return 0.0
+    
+    score = len(matched) / len(skills)
+    return round(score * 100, 2)
