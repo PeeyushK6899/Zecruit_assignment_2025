@@ -19,7 +19,7 @@ The core of this application lies in its ability to intelligently compare a cand
 
 The following prompt is used to instruct the AI model on how to extract and format the information from the resume text:
 
-Extract the following structured information from the resume below:
+`Extract the following structured information from the resume below:
 
 1. Skills (as a list of short skill names)
 2. Work Experience (company, role, years)
@@ -36,6 +36,7 @@ Resume:
 \"\"\"
 {text}
 \"\"\"
+`
 
 ## How to Run and Test
 
@@ -51,9 +52,9 @@ Resume:
     This will open the Swagger UI, which provides an interactive way to test the API endpoints.
 
 3. Test
-   The sample job description was given "File Name"- {sample_job_description.txt}
-   The sample resume was given "File Name"- {sample_resume.pdf}
-   The output contains all the extracted skills and experience required to judge a candidate for the suitability in the job "File Name"- {Test_output.json}
+   1. The sample job description was given "File Name"- {sample_job_description.txt}
+   2. The sample resume was given "File Name"- {sample_resume.pdf}
+   3. The output contains all the extracted skills and experience required to judge a candidate for the suitability in the job "File Name"- {Test_output.json}
 
 
 
