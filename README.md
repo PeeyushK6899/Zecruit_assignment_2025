@@ -19,7 +19,7 @@ The core of this application lies in its ability to intelligently compare a cand
 
 The following prompt is used to instruct the AI model on how to extract and format the information from the resume text:
 
-`Extract the following structured information from the resume below:
+```Extract the following structured information from the resume below:
 
 1. Skills (as a list of short skill names)
 2. Work Experience (company, role, years)
@@ -36,7 +36,7 @@ Resume:
 \"\"\"
 {text}
 \"\"\"
-`
+```
 
 ## How to Run and Test
 
