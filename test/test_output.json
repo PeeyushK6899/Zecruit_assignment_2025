@@ -1,0 +1,47 @@
+{
+  "application_id": 6,
+  "candidate_name": "string",
+  "score": 5.26,
+  "extracted_data": {
+    "skills": [
+      "C/C++",
+      "Java",
+      "Python",
+      "SQL",
+      "HTML",
+      "NumPy",
+      "Pandas",
+      "Flask",
+      "Django",
+      "Excel",
+      "Word",
+      "Adobe Photoshop",
+      "Premiere Pro",
+      "Illustrator",
+      "Blender",
+      "Autocad",
+      "Mission Planner",
+      "OriginB",
+      "Data Structures and Algorithms"
+    ],
+    "experience": [
+      {
+        "company": "Michrons Technology Private Limited",
+        "role": "Python Developer",
+        "years": "November, 2024 - December, 2024"
+      },
+      {
+        "company": "Codebird Technologies Private Limited",
+        "role": "Python Developer",
+        "years": "May, 2024 - July, 2024"
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech in Textile Engineering",
+        "university": "Indian Institute of Technology Delhi",
+        "year": "2022"
+      }
+    ]
+  }
+}
