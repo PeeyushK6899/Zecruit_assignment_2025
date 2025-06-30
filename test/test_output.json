@@ -1,44 +1,42 @@
 {
-  "application_id": 6,
+  "application_id": 17,
   "candidate_name": "string",
-  "score": 5.26,
+  "score": 91.67,
   "extracted_data": {
     "skills": [
-      "C/C++",
-      "Java",
+      "C",
+      "C++",
       "Python",
-      "SQL",
       "HTML",
+      "CSS",
+      "JavaScript",
+      "SQL",
       "NumPy",
+      "Matplotlib",
       "Pandas",
-      "Flask",
-      "Django",
-      "Excel",
-      "Word",
-      "Adobe Photoshop",
-      "Premiere Pro",
-      "Illustrator",
-      "Blender",
-      "Autocad",
-      "Mission Planner",
-      "OriginB",
-      "Data Structures and Algorithms"
+      "SciKit-Learn",
+      "PyTorch"
     ],
     "experience": [
       {
-        "company": "Michrons Technology Private Limited",
-        "role": "Python Developer",
-        "years": "November, 2024 - December, 2024"
+        "company": "Enactus",
+        "role": "Senior Division Executive, Events and Outreach",
+        "years": "August, 2023 - May, 2024"
       },
       {
-        "company": "Codebird Technologies Private Limited",
-        "role": "Python Developer",
-        "years": "May, 2024 - July, 2024"
+        "company": "Enactus",
+        "role": "Junior Division Executive, Events and Outreach",
+        "years": "April, 2023 - August, 2023"
+      },
+      {
+        "company": "Enactus",
+        "role": "Division Manager, Events and Outreach",
+        "years": "May, 2024 - Present"
       }
     ],
     "education": [
       {
-        "degree": "B.Tech in Textile Engineering",
+        "degree": "B.Tech in Energy Engineering",
         "university": "Indian Institute of Technology Delhi",
         "year": "2022"
       }
